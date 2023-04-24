@@ -3,8 +3,9 @@
     "terminal.integrated.copyOnSelection": true, //终端复制
     "workbench.colorCustomizations": {
         //菜单栏（顶部）
-        // "titleBar.activeForeground": "#ffffff",
+        "titleBar.inactiveForeground": "#ffffff",
         "titleBar.activeBackground": "#000000",
+        "titleBar.inactiveBackground": "#7f7878e3",
         // "titleBar.border": "#ffffff",
         //活动栏（最左侧）
         // "activityBar.inactiveForeground": "#b3b3b3",
@@ -34,6 +35,7 @@
         "tab.border": "#000000",
         // "editor.breadcrumbsBackground": "#ffffff",
         // "tab.unfocusedActiveBackground": "#ff0000",
+        // "menu.background": "#ff0000",
         //面包屑
         "breadcrumb.background": "#000000",
         "editorGroupHeader.border": "#000000", //编辑器组标题标头的边框颜色，面包屑下方横线颜色
@@ -52,9 +54,10 @@
         //状态栏(底部)
         "statusBar.background": "#000000",
         "statusBar.noFolderBackground": "#7a7878",
-        "statusBar.debuggingBackground": "#080808",
+        "statusBar.debuggingBackground": "#ed8516c7",
         "statusBar.foreground": "#fffafa",
-        "statusBar.border": "#3e3e3e",
+        "statusBar.border": "#00000000",
+        "statusBar.focusBorder": "#fbfafa83",
         // 面板
         "panel.border": "#c0c0c0",
         "panel.background": "#121111",
@@ -207,7 +210,7 @@
     "notebook.consolidatedRunButton": true,
     "notebook.lineNumbers": "on",
     "notebook.output.scrolling": true,
-    "workbench.layoutControl.enabled": false,
     "terminal.integrated.cursorBlinking": true,
     "window.menuBarVisibility": "toggle",
+    "workbench.layoutControl.enabled": false,
 }
