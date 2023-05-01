@@ -1,0 +1,225 @@
+{
+    "workbench.list.horizontalScrolling": true, //列表水平滚动
+    "terminal.integrated.copyOnSelection": true, //终端复制
+    "workbench.colorCustomizations": {
+        //菜单栏（顶部）
+        "titleBar.inactiveForeground": "#ffffff",
+        "titleBar.activeBackground": "#000000",
+        "titleBar.inactiveBackground": "#7f7878e3",
+        // "titleBar.border": "#ffffff",
+        //活动栏（最左侧）
+        // "activityBar.inactiveForeground": "#b3b3b3",
+        "activityBar.background": "#000000",
+        "activityBar.foreground": "#2aa7e0",
+        "activityBar.border": "#000000",
+        //侧边栏（左中）
+        "sideBar.background": "#0000008a", //"#252424",
+        "sideBar.border": "#898686", //#c7bfbf", //"#03d7fd",
+        // "sideBarSectionHeader.ckground":"#f2f2f2",
+        //文件列表
+        "list.inactiveSelectionBackground": "#4645457c",
+        // "list.inactiveSelectionForeground": "#ffffff",
+        // "list.hoverBackground": "#1a7dc4",
+        "list.hoverForeground": "#ffffff",
+        // "list.activeSelectionBackground": "#ff0000",
+        //文件页签 （选项卡）
+        "tab.hoverBackground": "#413e3e",
+        // "tab.hoverBorder": "#01f7ff",
+        "tab.hoverForeground": "#ffffff",
+        "tab.inactiveForeground": "#babbba",
+        "tab.inactiveBackground": "#000000",
+        // "tab.activeBorder": "#01f7ff",
+        "tab.activeBorderTop": "#2aa7e0",
+        "tab.activeBackground": "#000000",
+        "tab.activeForeground": "#ffffff",
+        "tab.border": "#000000",
+        // "editor.breadcrumbsBackground": "#ffffff",
+        // "tab.unfocusedActiveBackground": "#ff0000",
+        // "menu.background": "#ff0000",
+        //面包屑
+        "breadcrumb.background": "#000000",
+        "editorGroupHeader.border": "#000000", //编辑器组标题标头的边框颜色，面包屑下方横线颜色
+        // "editorGroupHeader.noTabsBackground":"#ff0000",//设置"workbench.editor.showTabs": false之后可见
+        "editorGroupHeader.tabsBackground": "#000000", //选项卡停靠位置的背景色，上图非活动选项卡颜色被我调成了透明
+        "editorGroupHeader.tabsBorder": "#000000", //编辑器组标题的边框，就是面包屑上方选项卡下方的横线颜色
+        //编辑区
+        "editor.background": "#000000",
+        // "editor.foreground": "#e70404",
+        // "editorLineNumber.foreground": "#cecccc",
+        "editorCursor.foreground": "#ffffff",
+        // "editor.selectionHighlightBackground":"#fffae3",
+        // "editor.selectionForeground":"#fff",
+        "editor.selectionBackground": "#8dc3ca70",
+        // "editor.ordHighlightBackground": "#8dc3ca70",
+        //状态栏(底部)
+        "statusBar.background": "#000000",
+        "statusBar.noFolderBackground": "#7a7878",
+        "statusBar.debuggingBackground": "#ed8516c7",
+        "statusBar.foreground": "#fffafa",
+        "statusBar.border": "#00000000",
+        "statusBar.focusBorder": "#fbfafa83",
+        // 面板
+        "panel.border": "#c0c0c0",
+        "panel.background": "#06060698",
+        "panelTitle.activeBorder": "#1a7dc4",
+        //滚动条
+        // "scrollbar.shadow": "#363535",
+        "scrollbarSlider.background": "#2625259f",
+        // "scrollbarSlider.hoverBackground": "#3e3e3e",
+        // "scrollbarSlider.activeBackground": "#5e5e5e",
+        // Jupyter Notebook颜色
+        // 主背景颜色
+        "notebook.editorBackground": "#000000",
+        // 单元格背景颜色
+        "notebook.cellEditorBackground": "#000000", //"#1e1d1d",
+        // 单元格边框颜色
+        "notebook.cellBorderColor": "#3b3b3c",
+        // 单元格悬停选中颜色
+        "notebook.cellHoverBackground": "#000000",
+        // 输出单元格颜色
+        "notebook.outputContainerBackgroundColor": "#202020", //"#0c0c0c" //"#86adef3c"
+    },
+    "workbench.colorTheme": "Dark+ Material",
+    "editor.fontSize": 16,
+    "files.autoSave": "afterDelay",
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.dontShowNewVersionMessage": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "tabnine.experimentalAutoImports": true,
+    "editor.formatOnSave": true,
+    "go.delveConfig": {},
+    "workbench.startupEditor": "none",
+    "python.defaultInterpreterPath": ".\\.v\\Scripts\\python.exe",
+    "settingsSync.ignoredSettings": [
+        "-python.defaultInterpreterPath"
+    ],
+    "interactiveWindow.collapseCellInputCode": "never",
+    "jupyter.themeMatplotlibPlots": true,
+    "code-runner.fileDirectoryAsCwd": true,
+    "code-runner.languageIdToFileExtensionMap": {
+        "bat": ".bat",
+        "powershell": ".ps1",
+        "typescript": ".ts"
+    },
+    "output.smartScroll.enabled": false,
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "zig": "zig run",
+        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "php": "php",
+        "python": "set PYTHONIOENCODING=utf8 && python -u",
+        "perl": "perl",
+        "perl6": "perl6",
+        "ruby": "ruby",
+        "go": "go run",
+        "lua": "lua",
+        "groovy": "groovy",
+        "powershell": "powershell -ExecutionPolicy ByPass -File",
+        "bat": "cmd /c",
+        "shellscript": "bash",
+        "fsharp": "fsi",
+        "csharp": "scriptcs",
+        "vbscript": "cscript //Nologo",
+        "typescript": "ts-node",
+        "coffeescript": "coffee",
+        "scala": "scala",
+        "swift": "swift",
+        "julia": "julia",
+        "crystal": "crystal",
+        "ocaml": "ocaml",
+        "r": "Rscript",
+        "applescript": "osascript",
+        "clojure": "lein exec",
+        "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+        "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+        "racket": "racket",
+        "scheme": "csi -script",
+        "ahk": "autohotkey",
+        "autoit": "autoit3",
+        "dart": "dart",
+        "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+        "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+        "haskell": "runghc",
+        "nim": "nim compile --verbosity:0 --hints:off --run",
+        "lisp": "sbcl --script",
+        "kit": "kitc --run",
+        "v": "v run",
+        "sass": "sass --style expanded",
+        "scss": "scss --style expanded",
+        "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+        "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "sml": "cd $dir && sml $fileName"
+    },
+    "code-runner.saveFileBeforeRun": true,
+    "python.formatting.provider": "black",
+    "editor.codeActionsOnSave": {},
+    "explorer.confirmDelete": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.currentLine.enabled": false,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.mode.statusBar.enabled": false,
+    "git.openRepositoryInParentFolders": "always",
+    "git.enableSmartCommit": true,
+    "terminal.integrated.profiles.windows": {
+        "GitBash": {
+            "path": "D:\\Git\\bin\\bash.exe"
+        },
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        }
+    },
+    "git.confirmSync": false,
+    "gitlens.hovers.enabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "editor.inlineSuggest.enabled": true,
+    "settingsSync.ignoredExtensions": [],
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": false,
+        "yaml": true
+    },
+    "editor.inlineSuggest.showToolbar": "always",
+    "github.copilot.advanced": {},
+    "notebook.formatOnSave.enabled": true,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "right"
+    },
+    "notebook.cellToolbarVisibility": "hover",
+    "notebook.compactView": false,
+    "notebook.consolidatedRunButton": true,
+    "notebook.lineNumbers": "on",
+    "notebook.output.scrolling": true,
+    "terminal.integrated.cursorBlinking": true,
+    "window.menuBarVisibility": "toggle",
+    "workbench.layoutControl.enabled": false,
+    "aws.telemetry": false,
+    "files.exclude": {
+        "**/.DS_Store": false,
+        "**/.git": false,
+        "**/.hg": false,
+        "**/.svn": false,
+        "**/CVS": false,
+        "**/Thumbs.db": false
+    },
+}
